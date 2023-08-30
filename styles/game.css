@@ -1,0 +1,122 @@
+.wrapper {
+  padding-top: 100px;
+}
+
+.balance_cont {
+  position: absolute;
+  right: 25px;
+  top: 40px;
+}
+
+.back {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.game {
+  position: relative;
+  margin: auto;
+}
+
+.game > img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.time {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 30px;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.level {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.board {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.shine {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  z-index: 2;
+}
+
+.trace {
+  position: absolute;
+  background: black;
+  width: 10px;
+  height: 10px;
+}
+
+.btns {
+  margin: 20px auto auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+
+  width: 320px;
+}
+
+.modal img {
+  max-width: 100%;
+}
+
+@media screen and (max-height: 770px) {
+  .wrapper {
+    padding-top: 50px;
+  }
+
+  .back {
+    left: 5px;
+    top: 7px;
+    transform-origin: top;
+    transform: scale(0.7);
+  }
+
+  .balance_cont {
+    top: 15px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .ok,
+  .re {
+    width: 90px;
+  }
+
+  .btns {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-height: 660px) {
+  .game {
+    width: 80%;
+  }
+}

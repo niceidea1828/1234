@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="main.html" class="modal hidden">
+        <img src="../png/win.png" alt="" class="win" />
+        <img src="../png/lose.png" alt="" class="lose" />
+      </a>
+
+      <a href="main.html" class="back">
+        <img src="../png/home.png" alt="" />
+      </a>
+
+      <div class="balance_cont block">
+        <div class="balance"></div>
+        <img src="../png/coin.png" alt="" />
+      </div>
+
+      <div class="game">
+        <div class="time">30</div>
+        <div class="level"></div>
+        <canvas class="board"></canvas>
+      </div>
+
+      <div class="btns">
+        <img src="../png/re.png" alt="" class="re" />
+        <img src="../png/ok.png" alt="" class="ok" />
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>
