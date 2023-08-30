@@ -1,5 +1,13 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .wrapper {
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .balance_cont {
